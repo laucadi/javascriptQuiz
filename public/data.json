@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál es la salida de este código?\n",
+    "code": "\nlet x = 1;\nlet y = '2';\nlet z = '2';\nconsole.log(x + y + z);",
+    "answers": ["122", "32", "14"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál es la forma correcta de declarar una variable en JavaScript?",
+    "code": "\nlet x = 10;\nconst y = 'Hello';",
+    "answers": ["variable x;", "let x;", "const x;"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 3,
+    "question": "¿Cuál es la salida de este código?\n",
+    "code": "\nlet a = 10;\nlet b = () => {\n  console.log(a);\n}\nlet c = () => {\n  let a = 20;\n  b();\n}\nc();",
+    "answers": ["10", "20", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Qué hace el método `map` de un arreglo en JavaScript?",
+    "code": " \nconst arr = [1, 2, 3];\nconst mappedArr = arr.map(x => x * 2);\nconsole.log(mappedArr);",
+    "answers": [
+      "Itera sobre cada elemento del arreglo y modifica su valor",
+      "Devuelve un nuevo arreglo con los elementos transformados por la función dada",
+      "Devuelve el primer elemento que cumpla con la condición dada"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 5,
+    "question": "¿Cuál es la salida de este código?\n",
+    "code": "\nlet x = 10;\nif (true) {\n  let x = 20;\n}\nconsole.log(x);",
+    "answers": ["10", "20", "undefined"],
+    "correctAnswer": 0
+  }
+]
